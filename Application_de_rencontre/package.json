@@ -1,13 +1,16 @@
 {
   "name": "application_de_rencontre",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Application de rencontre",
+  "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "bcrypt": "^5.1.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.1"
   },
   "author": "",
   "license": "ISC"
